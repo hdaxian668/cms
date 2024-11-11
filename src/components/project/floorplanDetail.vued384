@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('section',{staticClass:"page-header"},[_c('el-breadcrumb',{attrs:{"separator":"/"}},[_c('el-breadcrumb-item',{attrs:{"to":{ path: '/' }}},[_vm._v("首頁")]),_vm._v(" "),_c('el-breadcrumb-item',{attrs:{"to":{ path: '/project/list' }}},[_vm._v("項目管理")]),_vm._v(" "),_c('el-breadcrumb-item',{attrs:{"to":{ path: '/floorplan/list',query: {id:_vm.projectId,name:_vm.projectName } }}},[_vm._v("平面圖")]),_vm._v(" "),_c('el-breadcrumb-item',[_vm._v("詳情")]),_vm._v(" "),_c('el-breadcrumb-item',[_vm._v(_vm._s(_vm.projectName))])],1)],1),_vm._v(" "),_c('el-form',{directives:[{name:"loading",rawName:"v-loading",value:(_vm.loading),expression:"loading"}],ref:"floorplan",attrs:{"element-loading-text":"數據加載中","model":_vm.floorplan,"rules":_vm.rules,"label-position":"left","label-width":"160px"}},[_c('el-form-item',{attrs:{"label":"平面圖","prop":"image"}},[_c('single-img-upload',{attrs:{"img-url":_vm.floorplan.image},on:{"uploadOnSuccess":_vm.handleCoverImgSuccess,"uploadOnRemove":_vm.handleCoverImgRemove,"uploadOnError":_vm.handleImgError}})],1),_vm._v(" "),_c('el-form-item',{attrs:{"label":"編號","prop":"mapping"}},[_c('el-input',{attrs:{"placeholder":"編號"},model:{value:(_vm.floorplan.mapping),callback:function ($$v) {_vm.$set(_vm.floorplan, "mapping", $$v)},expression:"floorplan.mapping"}})],1),_vm._v(" "),(_vm.FLOORPLAN)?_c('el-form-item',[_c('el-button',{attrs:{"type":"primary","loading":_vm.submitLoading},on:{"click":_vm.onSubmit}},[_vm._v("提交")])],1):_vm._e()],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-88eb555a","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/project/floorplanDetail.vue
+// module id = null
+// module chunks = 

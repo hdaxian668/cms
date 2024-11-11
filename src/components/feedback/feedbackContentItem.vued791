@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"feedback-remark-part"},[_c('el-form',{ref:"item",attrs:{"model":_vm.item,"rules":_vm.rules}},[_c('el-form-item',{staticClass:"row-input",staticStyle:{"width":"20% !important","margin-bottom":"5px"},attrs:{"prop":"category"}},[_c('el-select',{staticClass:"selects-item",attrs:{"placeholder":"查詢類別","value-key":"item.category"},model:{value:(_vm.item.category),callback:function ($$v) {_vm.$set(_vm.item, "category", $$v)},expression:"item.category"}},[_c('el-option',{key:"",attrs:{"value":"","label":"請選擇查詢類別"}}),_vm._v(" "),_c('el-option',{key:"1",attrs:{"value":"1","label":"會籍查詢"}}),_vm._v(" "),_c('el-option',{key:"2",attrs:{"value":"2","label":"銷售查詢"}}),_vm._v(" "),_c('el-option',{key:"3",attrs:{"value":"3","label":"物業管理查詢"}})],1)],1),_vm._v(" "),_c('el-form-item',{staticClass:"row-input",staticStyle:{"width":"4% !important","margin-bottom":"5px","float":"right"},attrs:{"prop":""}},[_c('i',{staticClass:"el-icon-delete el-icon",on:{"click":_vm.itemDelete}})]),_vm._v(" "),_c('el-form-item',{staticClass:"row-input",staticStyle:{"display":"block","width":"100% !important"},attrs:{"prop":"content"}},[_c('el-input',{attrs:{"type":"textarea","rows":5,"placeholder":"請輸入反馈内容"},model:{value:(_vm.item.content),callback:function ($$v) {_vm.$set(_vm.item, "content", $$v)},expression:"item.content"}})],1)],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1d48ab4c","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/feedback/feedbackContentItem.vue
+// module id = null
+// module chunks = 

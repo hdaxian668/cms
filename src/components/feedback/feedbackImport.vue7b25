@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('section',{staticClass:"page-header"},[_c('el-breadcrumb',{attrs:{"separator":"/"}},[_c('el-breadcrumb-item',{attrs:{"to":{ path: '/' }}},[_vm._v("首頁")]),_vm._v(" "),_c('el-breadcrumb-item',[_vm._v("聯繫我們")]),_vm._v(" "),_c('el-breadcrumb-item',[_vm._v("資料導入")])],1)],1),_vm._v(" "),_c('el-form',{directives:[{name:"loading",rawName:"v-loading",value:(_vm.loading),expression:"loading"}],ref:"feedback",attrs:{"element-loading-text":"數據加載中","model":_vm.feedback,"rules":_vm.rules,"label-position":"left","label-width":"150px"}},[_c('el-form-item',{attrs:{"label":"導入文件","prop":"feedback_file"}},[_c('el-upload',{directives:[{name:"loading",rawName:"v-loading",value:(_vm.uploadLoading),expression:"uploadLoading"}],staticClass:"photo-uploader",class:_vm.isInline?'inline-block':'',attrs:{"element-loading-text":"文件上傳中","name":"upfile","action":"/upload/handle?action=uploadFeedbackXlsx","accept":".xlsx","limit":parseInt('1'),"on-success":_vm.uploadOnSuccess,"on-progress":_vm.uploadOnProgress,"on-change":_vm.uploadOnChange,"on-error":_vm.uploadOnError,"on-remove":_vm.handleRemove,"before-upload":_vm.beforeUpload}},[_c('i',{staticClass:"el-icon-plus uploader-icon"})]),_vm._v(" "),_c('div',[_vm._v("* 每次導入最多 1,000 條記錄")])],1),_vm._v(" "),_c('el-form-item',[_c('el-button',{attrs:{"type":"primary","loading":_vm.submitLoading},on:{"click":_vm.downloadExample}},[_vm._v("下載導入範本")])],1),_vm._v(" "),_c('el-form-item',[(!_vm.isHidden)?_c('el-button',{attrs:{"type":"primary","loading":_vm.submitLoading},on:{"click":_vm.onSubmit}},[_vm._v("提交")]):_vm._e()],1)],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-34cd277c","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/feedback/feedbackImport.vue
+// module id = null
+// module chunks = 

@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"video-card",style:(_vm.videoStyle)},[_c('video',{attrs:{"src":_vm.videoUrl,"controls":"","height":_vm.videoStyle.height,"width":_vm.videoStyle.width}}),_vm._v(" "),_c('span',{staticClass:"video-card-actions"},[_c('span',{staticClass:"img-card-actions_item-delete",on:{"click":_vm.videoDelete}},[_c('i',{staticClass:"el-icon-delete"})])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-62e7c05c","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/common/VideoUpload/VideoCard.vue
+// module id = null
+// module chunks = 

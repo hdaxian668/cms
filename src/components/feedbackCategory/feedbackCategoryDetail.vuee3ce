@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('section',{staticClass:"page-header"},[_c('el-breadcrumb',{attrs:{"separator":"/"}},[_c('el-breadcrumb-item',{attrs:{"to":{ path: '/' }}},[_vm._v("首頁")]),_vm._v(" "),_c('el-breadcrumb-item',{attrs:{"to":{ path: '/feedback-category/list' }}},[_vm._v("聯繫類別管理")]),_vm._v(" "),_c('el-breadcrumb-item',[_vm._v("聯繫類別詳情")])],1)],1),_vm._v(" "),_c('el-form',{directives:[{name:"loading",rawName:"v-loading",value:(_vm.loading),expression:"loading"}],ref:"feedbackCategory",attrs:{"element-loading-text":"數據加載中","model":_vm.feedbackCategory,"rules":_vm.rules,"label-position":"left","label-width":"150px"}},[_c('el-form-item',{attrs:{"label":"名稱","prop":"name"}},[_c('el-input',{attrs:{"placeholder":"請輸入名稱"},model:{value:(_vm.feedbackCategory.name),callback:function ($$v) {_vm.$set(_vm.feedbackCategory, "name", $$v)},expression:"feedbackCategory.name"}})],1),_vm._v(" "),((_vm.CREATE && !_vm.id) || (_vm.EDIT && _vm.id))?_c('el-form-item',[_c('el-button',{attrs:{"type":"primary","loading":_vm.submitLoading},on:{"click":_vm.onSubmit}},[_vm._v("提交")])],1):_vm._e()],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-8a0969a2","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/feedbackCategory/feedbackCategoryDetail.vue
+// module id = null
+// module chunks = 

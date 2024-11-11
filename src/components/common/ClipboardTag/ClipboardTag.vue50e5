@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('el-button',{directives:[{name:"clipboard",rawName:"v-clipboard:copy",value:(_vm.tag),expression:"tag",arg:"copy"},{name:"clipboard",rawName:"v-clipboard:success",value:(_vm.onCopy),expression:"onCopy",arg:"success"},{name:"clipboard",rawName:"v-clipboard:error",value:(_vm.onError),expression:"onError",arg:"error"}],attrs:{"type":"button","plain":""}},[_vm._v(_vm._s(_vm.tag))])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-b62a5d66","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/common/ClipboardTag/ClipboardTag.vue
+// module id = null
+// module chunks = 

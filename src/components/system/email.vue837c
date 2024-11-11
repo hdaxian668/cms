@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('section',{staticClass:"page-header"},[_c('el-breadcrumb',{attrs:{"separator":"/"}},[_c('el-breadcrumb-item',{attrs:{"to":{ path: '/' }}},[_vm._v("首頁")]),_vm._v(" "),_c('el-breadcrumb-item',[_vm._v("系統郵箱")])],1)],1),_vm._v(" "),_c('el-form',{directives:[{name:"loading",rawName:"v-loading",value:(_vm.loading),expression:"loading"}],ref:"email",attrs:{"element-loading-text":"數據加載中","model":_vm.email,"rules":_vm.rules,"label-position":"left","label-width":"120px"}},[_c('el-form-item',{attrs:{"label":"收件郵箱","prop":"receive_email"}},[_c('el-input',{attrs:{"placeholder":"請輸入收件郵箱"},model:{value:(_vm.email.receive_email),callback:function ($$v) {_vm.$set(_vm.email, "receive_email", $$v)},expression:"email.receive_email"}})],1),_vm._v(" "),(_vm.EDIT)?_c('el-form-item',[_c('el-button',{attrs:{"type":"primary","loading":_vm.submitLoading},on:{"click":_vm.onSubmit}},[_vm._v("提交")])],1):_vm._e()],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-076b3c6b","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/system/email.vue
+// module id = null
+// module chunks = 
